@@ -33,6 +33,12 @@ public class Main {
         System.out.println(frog);
         frog = frog + 4;
         System.out.println(frog);
+        var boxerOne = 78.2;
+        var boxerTwo = 82.7;
+        var totalWeight = boxerOne + boxerTwo;
+        System.out.println("Общий вес двух бойцов " +totalWeight+ " кг.");
+        var weightDifference = boxerTwo - boxerOne;
+        System.out.println("Разницу между весами бойцов " +weightDifference+ " кг.");
 
     }
 }
